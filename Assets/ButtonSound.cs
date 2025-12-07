@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ButtonSound : MonoBehaviour
 {
-    public AudioSource audioSource;  // Corregido: "audioSource" no "audiosource"
+    public AudioSource audioSource;  
     public AudioClip sound;
 
     public void PlaySound()
